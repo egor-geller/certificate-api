@@ -1,0 +1,6 @@
+rootProject.name = 'projectwar'
+include 'web'
+include 'service'
+include 'repository'
+include 'model'
+

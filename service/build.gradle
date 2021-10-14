@@ -1,0 +1,8 @@
+dependencies {
+    implementation project(":model")
+    implementation project(":repository")
+
+    testImplementation group: 'org.mockito', name: 'mockito-core', version: mockitoversion;
+    testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: mockitoversion;
+    implementation group: 'org.springframework', name: 'spring-context', version: springVersion
+}
